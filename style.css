@@ -1,0 +1,42 @@
+body {background-color: rgba(248, 232, 235, 0.245);}
+
+ul.songList {
+    color:palevioletred;
+}
+
+a {color:purple}
+
+nav {
+    display: flex; /* 1 */
+    justify-content: space-between; /* 2 */
+    padding: 0px 0px; /* 3 */
+    background: #cfd8dc; /* 4 */
+}
+
+p {
+    color:pink;
+}
+
+table, th, td {
+    border: 1px solid; color: purple;
+}
+
+nav {
+    display: flex; /* 1 */
+    justify-content: space-between; /* 2 */
+    padding: 0px 0px; /* 3 */
+    background: #f7cdcda6; /* 4 */
+}
+
+nav h2 {
+    margin: 0px 0px;
+}
+nav ul {
+    display: flex; /* 5 */
+    list-style: none; /* 6 */
+    margin: 0px 0px;
+}
+
+nav li {
+    padding-left: 1rem; /* 7! */
+}
